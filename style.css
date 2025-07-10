@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-image: url(/image.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.container{
+    background-color: wheat;
+    max-width: 350px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding: 30pxs 20px;
+    margin-top: 20%;
+}
+form input, form button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: medium;
+
+}
+form button{
+    background-color: cadetblue;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s eas ;
+}
+form button:hover{
+    background-color: aliceblue;
+}
+
